@@ -23,7 +23,7 @@ const THEME = {
 
 const PROFILE = {
   name: "Jacoub Hindi",
-  title: "Product and Delivery leader",
+  title: "Director of Product and Delivery",
   tagline:
     "I lead end to end delivery of self-serve platforms, analytics, and workflow automation for B2B SaaS. I make complex systems simple, improve time to value, and tie releases to clear business outcomes.",
   location: "Temecula, CA",
