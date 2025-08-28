@@ -325,9 +325,7 @@ export default function App() {
               className="group bg-white border border-neutral-200 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition cursor-pointer"
               onClick={() => setActive(c.id)}
             >
-              <div className="relative aspect-[16/9] bg-neutral-100">
-                <div className="absolute inset-0 flex items-center justify-center text-neutral-500">
-                  <Img className="w-10 h-10" />
+              <div className="relative aspect-[16/9] bg-neutral-100 overflow-hidden"> <img src={c.cover} alt={c.title} className="w-full h-full object-cover" loading="lazy" /> </div>
                 </div>
               </div>
               <div className="p-5">
@@ -369,8 +367,8 @@ export default function App() {
               <div className="md:col-span-2">
                 <div className="grid grid-cols-3 gap-2">
                   {selected.gallery.map((g, i) => (
-                    <div key={i} className="aspect-[4/3] bg-neutral-100 rounded-xl flex items-center justify-center text-neutral-400">
-                      <Img className="w-6 h-6" />
+
+<div key={i} className="aspect-[4/3] rounded-xl overflow-hidden border border-neutral-200"> <img src={g} alt={`${selected.id}-${i+1}`} className="w-full h-full object-cover" loading="lazy" /> </div> ))}
                     </div>
                   ))}
                 </div>
