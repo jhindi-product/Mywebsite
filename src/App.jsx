@@ -88,7 +88,7 @@ const CASE_STUDIES = [
     ],
     results: ["Handling time down 40 percent", "Higher adoption and satisfaction"],
     stack: ["Jira", "Confluence", "AWS", "SQL", "Docker"],
-    gallery: ["/ticket details.png", "/ticket dashboard.png", "/dashboard.png", "/creating a ticket.png],
+    gallery: ["/Ticket details.png", "/Ticket Dashboard.png", "/Dashboard.png", "/Creating a ticket.png],
   },
   {
     id: "madain",
@@ -103,7 +103,7 @@ const CASE_STUDIES = [
     ],
     results: ["Retention up 20 percent", "Acquisition costs down 25 percent"],
     stack: ["Product analytics", "Experimentation", "Figma"],
-    gallery: ["/madain-1.png", "/madain-2.png"],
+    gallery: ["/Madain 1.png", "/Madain 2.png"],
   },
   {
     id: "buildfire",
@@ -119,7 +119,7 @@ const CASE_STUDIES = [
     ],
     results: ["Downloads up 25 percent", "Retention up 15 percent", "CSAT up from 80 to 95"],
     stack: ["Agile", "Roadmaps", "User feedback"],
-    gallery: ["/buildfire-1.png", "/buildfire-2.png"],
+    gallery: ["/Buildfire 1.png", "/Buildfire 2.png", "/Buildfire 3.png", "/Buildfire 4.png", ],
   },
 ];
 
