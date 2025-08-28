@@ -88,7 +88,7 @@ const CASE_STUDIES = [
     ],
     results: ["Handling time down 40 percent", "Higher adoption and satisfaction"],
     stack: ["Jira", "Confluence", "AWS", "SQL", "Docker"],
-    gallery: ["/telcloud-1.png", "/telcloud-2.png", "/telcloud-3.png"],
+    gallery: ["/ticket-details.png", "/ticket-dashboard.png", "/dashboard.png", "/creating-a-ticket.png],
   },
   {
     id: "madain",
